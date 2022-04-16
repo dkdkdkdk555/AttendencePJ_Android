@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var webView:WebView
     private lateinit var backPressHandler:BackPressCloseHandler
-    private var nowUrl:String = KeyInfo.LOCAL_URL
+    private var nowUrl:String = KeyInfo.SERVER_URL
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         backPressHandler = BackPressCloseHandler(this)
     }
 
-    //
+    // 뒤로가기 버튼
     override fun onBackPressed() {
 
         var webUrl = webView.url
