@@ -8,13 +8,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="245dp"
-        android:layout_height="325dp"
-
-        android:layout_marginTop="88dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/introimg" />
-
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/intro"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="256dp" />
 </android.support.constraint.ConstraintLayout>
